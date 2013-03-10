@@ -2,7 +2,7 @@ Autoloads a file into the Node REPL on start then passes control to the user.
 
 ## Install it on node from npm
 
-`npm install atropa-replAutoload`
+`npm install atropa-repl-autoload`
 
 ## Overview
 
@@ -24,7 +24,7 @@ This would also be useful if you wanted to load the same file into the repl all 
 
 
 ```
-var replAutoload = require('atropa-replAutoload');
+var replAutoload = require('atropa-repl-autoload');
 var file = process.argv[2];
 var encoding = process.argv[3];
 var options = process.argv[4];

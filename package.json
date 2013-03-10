@@ -1,10 +1,10 @@
 {
                     
-    "name"          : "atropa-replAutoload",
+    "name"          : "atropa-repl-autoload",
     "version"       : "0.1.0-1",
     "main"          : "./atropa-replAutoload.js",
     "description"   : "Autoloads a file into the Node REPL on start then passes control to the user.",
-    "keywords"      : ["atropa-replAutoload", "atropa", "utilities", "repl", "test"],
+    "keywords"      : ["atropa-replAutoload", "atropa-repl-autoload", "atropa", "utilities", "repl", "test"],
     "homepage"      : "https://github.com/matthewkastor/atropa-replAutoload/",
     "bugs"          : "https://github.com/matthewkastor/atropa-replAutoload/issues",
     "author"        : {
