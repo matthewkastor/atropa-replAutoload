@@ -1,7 +1,7 @@
 {
                     
     "name"          : "atropa-repl-autoload",
-    "version"       : "0.1.0-1",
+    "version"       : "0.1.0-2",
     "main"          : "./atropa-replAutoload.js",
     "description"   : "Autoloads a file into the Node REPL on start then passes control to the user.",
     "keywords"      : ["atropa-replAutoload", "atropa-repl-autoload", "atropa", "utilities", "repl", "test"],

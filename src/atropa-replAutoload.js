@@ -9,6 +9,11 @@
  *  are the same as for fs.readFileSync. Defaults to utf8.
  * @param {Object} replStartArgs Optional. The options for the REPL. Corresponds
  *  to repl.start options.
+ * @example
+ *  var replAutoload = require('atropa-repl-autoload');
+ *  // replAutoload(process.argv[2], process.argv[3], JSON.parse(process.argv[4]));
+ *  // replAutoload(process.argv[2], process.argv[3],  { "ignoreUndefined" : "true" });
+ *  replAutoload('test.js', 'utf8', { "ignoreUndefined" : "true" });
  * @see <a href="http://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_encoding">
  * http://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_encoding</a>
  * @see <a href="http://nodejs.org/api/repl.html#repl_repl_start_options">
