@@ -16,7 +16,7 @@ On the command line the third option will require quoting and escaping per your 
 
 This would be useful for code editors that allow you to launch external programs and pass the filename of the currently focused file. You would be able to load the file you're editing into the REPL and try things out right away.
 
-In notepad++ the command would look something like
+In [notepad++ the command](http://npp-community.tuxfamily.org/documentation/notepad-user-manual/commands) would look something like
 `node path\to\thisScript.js "$(FULL_CURRENT_PATH)"`
 if you were to name the following example `thisScript.js` and have node in your path.
 
