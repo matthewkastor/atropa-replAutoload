@@ -57,4 +57,4 @@ var options = process.argv[4];
 ## Intellisense Support and Documentation
 
 Visual studio intellisense support is available in docs/vsdoc/OpenLayersAll.js
-Full documentation may be found at [http://matthewkastor.github.com/atropa-replAutoload](http://matthewkastor.github.com/atropa-replAutoload)
+Full documentation may be found at [http://matthewkastor.github.io/atropa-replAutoload](http://matthewkastor.github.io/atropa-replAutoload)
