@@ -1,22 +1,35 @@
 {
-                    
-    "name"          : "atropa-repl-autoload",
-    "version"       : "0.1.0-3",
-    "main"          : "./atropa-replAutoload.js",
-    "description"   : "Autoloads a file into the Node REPL on start then passes control to the user.",
-    "keywords"      : ["atropa-replAutoload", "atropa-repl-autoload", "atropa", "utilities", "repl", "test"],
-    "homepage"      : "https://github.com/matthewkastor/atropa-replAutoload/",
-    "bugs"          : "https://github.com/matthewkastor/atropa-replAutoload/issues",
-    "author"        : {
-                        "name"      : "Matthew Kastor",
-                        "email"     : "matthewkastor@gmail.com",
-                        "url"       : "https://plus.google.com/100898583798552211130"
-    },
-    "repository"    : {
-                        "type"      : "git",
-                        "url"       : "git://github.com/matthewkastor/atropa-replAutoload.git"
-    },
-    "engines"       : {
-                        "node"      : ">=0.8.14"
-    }
+          "name": "atropa-repl-autoload",
+          "version": "0.1.0-3",
+          "main": "./atropa-replAutoload.js",
+          "description": "Autoloads a file into the Node REPL on start then passes control to the user.",
+          "keywords": [
+                    "atropa-replAutoload",
+                    "atropa-repl-autoload",
+                    "atropa",
+                    "utilities",
+                    "repl",
+                    "test"
+          ],
+          "homepage": "https://github.com/matthewkastor/atropa-replAutoload/",
+          "bugs": "https://github.com/matthewkastor/atropa-replAutoload/issues",
+          "author": {
+                    "name": "Matthew Kastor",
+                    "email": "matthewkastor@gmail.com",
+                    "url": "https://plus.google.com/100898583798552211130"
+          },
+          "repository": {
+                    "type": "git",
+                    "url": "git://github.com/matthewkastor/atropa-replAutoload.git"
+          },
+          "scripts": {
+                    "buildDocs": "jsdoc-toolkit -v -d=./docs/jsdoc/ -r -s src/",
+                    "buildVsdocs": "jsdoc-toolkit -v -d=./docs/vsdoc/ -t=./node_modules/jsdoc-toolkit/templates/vsdoc/ -r -s src/"
+          },
+          "devDependencies": {
+                    "jsdoc-toolkit": "git+https://github.com/matthewkastor/node-jsdoc-toolkit.git#fix-tests"
+          },
+          "engines": {
+                    "node": ">=0.8.14"
+          }
 }
